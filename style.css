@@ -1,0 +1,97 @@
+body {
+   
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(132deg, green 0%, hsl(168, 100%, 50%) 100%);
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    
+background-image: linear-gradient(132deg, green 0%, hsl(168, 100%, 50%) 100%);
+
+    border-radius: 10px;
+    color: #fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.hero{
+
+/* background-image: url("./images/pexels-pixabay-460621.jpg");
+background-size: cover; */
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
+#about h2{
+    padding: 50px;
+    border: 3px solid black
+}
+#about p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 75px;
+    margin-right: 75px;
+    
+}
+#work{
+    display: flex;
+    flex-direction: row;
+
+}
+#work h2{
+    padding: 50px;
+    border: 3px solid black
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+
+
+}
+#contact h2{
+    padding: 50px;
+        border: 3px solid black
+}
+#contact p{
+    margin: 90px;
+}
+#mainImage{
+    background-image: url("./images/avatar.jpg");
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+ @media screen and (min-width: 768px){
+   
+    #work{
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+ }
